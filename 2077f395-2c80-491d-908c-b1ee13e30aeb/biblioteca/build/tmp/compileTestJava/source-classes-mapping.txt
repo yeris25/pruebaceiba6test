@@ -1,0 +1,6 @@
+com/ceiba/biblioteca/calificador/PrestamoTests.java
+ com.ceiba.biblioteca.calificador.PrestamoTests
+com/ceiba/biblioteca/calificador/ResultadoPrestarTest.java
+ com.ceiba.biblioteca.calificador.ResultadoPrestarTest
+com/ceiba/biblioteca/calificador/SolicitudPrestarLibroTest.java
+ com.ceiba.biblioteca.calificador.SolicitudPrestarLibroTest

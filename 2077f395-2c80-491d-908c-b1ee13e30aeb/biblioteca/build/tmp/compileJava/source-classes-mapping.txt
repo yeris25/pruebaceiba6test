@@ -1,0 +1,20 @@
+com/ceiba/biblioteca/dto/PrestamoErrorDTO.java
+ com.ceiba.biblioteca.dto.PrestamoErrorDTO
+com/ceiba/biblioteca/BibliotecaApplication.java
+ com.ceiba.biblioteca.BibliotecaApplication
+com/ceiba/biblioteca/controlador/PrestamoControlador.java
+ com.ceiba.biblioteca.controlador.PrestamoControlador
+com/ceiba/biblioteca/dto/PrestamosDTO.java
+ com.ceiba.biblioteca.dto.PrestamosDTO
+com/ceiba/biblioteca/entidad/Prestamo.java
+ com.ceiba.biblioteca.entidad.Prestamo
+com/ceiba/biblioteca/dto/PrestamoAceptadoDTO.java
+ com.ceiba.biblioteca.dto.PrestamoAceptadoDTO
+com/ceiba/biblioteca/dto/PrestamoDTO.java
+ com.ceiba.biblioteca.dto.PrestamoDTO
+com/ceiba/biblioteca/repositorio/PrestamoRepositorio.java
+ com.ceiba.biblioteca.repositorio.PrestamoRepositorio
+com/ceiba/biblioteca/servicio/PrestamoServicio.java
+ com.ceiba.biblioteca.servicio.PrestamoServicio
+com/ceiba/biblioteca/servicio/PrestamoServicioInterface.java
+ com.ceiba.biblioteca.servicio.PrestamoServicioInterface

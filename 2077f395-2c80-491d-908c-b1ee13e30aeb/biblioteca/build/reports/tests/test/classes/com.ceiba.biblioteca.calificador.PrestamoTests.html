@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - PrestamoTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>PrestamoTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.ceiba.biblioteca.calificador.html">com.ceiba.biblioteca.calificador</a> &gt; PrestamoTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">20.475s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">prestamoConTipoDeUsuarioNoPermitidoDeberiaRetornarExcepcion()</td>
+<td class="success">3.052s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">prestamoLibroUsuarioAfiliadoDeberiaAlmacenarCorrectamenteYCalcularFechaDeDevolucion()</td>
+<td class="success">2.564s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">prestamoLibroUsuarioEmpleadoDeberiaAlmacenarCorrectamenteYCalcularFechaDeDevolucion()</td>
+<td class="success">2.740s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">prestamoLibroUsuarioInvitadoDeberiaAlmacenarCorrectamenteYCalcularFechaDeDevolucion()</td>
+<td class="success">4.453s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">usuarioInvitadoTratandoDePrestarUnSegundoLibroDeberiaRetornarExcepcion()</td>
+<td class="success">3.092s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">usuarioNoInvitadoTratandoDePrestarUnSegundoLibroDeberiaPrestarloCorrectamente()</td>
+<td class="success">4.574s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>11:37:52.263 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+11:37:52.320 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+11:37:52.390 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.ceiba.biblioteca.calificador.PrestamoTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+11:37:52.428 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ceiba.biblioteca.calificador.PrestamoTests], using SpringBootContextLoader
+11:37:52.440 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ceiba.biblioteca.calificador.PrestamoTests]: class path resource [com/ceiba/biblioteca/calificador/PrestamoTests-context.xml] does not exist
+11:37:52.441 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ceiba.biblioteca.calificador.PrestamoTests]: class path resource [com/ceiba/biblioteca/calificador/PrestamoTestsContext.groovy] does not exist
+11:37:52.442 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.ceiba.biblioteca.calificador.PrestamoTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:37:52.443 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ceiba.biblioteca.calificador.PrestamoTests]: PrestamoTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:37:52.584 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.ceiba.biblioteca.calificador.PrestamoTests]
+11:37:52.799 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\AnaSofiaAmarilesBlan\Downloads\2077f395-2c80-491d-908c-b1ee13e30aeb\biblioteca\build\classes\java\main\com\ceiba\biblioteca\BibliotecaApplication.class]
+11:37:52.803 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ceiba.biblioteca.BibliotecaApplication for test class com.ceiba.biblioteca.calificador.PrestamoTests
+11:37:52.995 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.ceiba.biblioteca.calificador.PrestamoTests]: using defaults.
+11:37:52.997 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+11:37:53.035 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@23d3d2f1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5c76ce9a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@77c343f5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@430ed393, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7e77d559, org.springframework.test.context.transaction.TransactionalTestExecutionListener@149fd613, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@792ee39e, org.springframework.test.context.event.EventPublishingTestExecutionListener@4c093563, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@c94eca6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@66519c69, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@686db12e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6d4a336d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@469003be]
+11:37:53.042 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@53a8dde7 testClass = PrestamoTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@643d18d2 testClass = PrestamoTests, locations = '{}', classes = '{class com.ceiba.biblioteca.BibliotecaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@65691ddb, [ImportsContextCustomizer@7c2e8da0 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6ac99158, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@29b900c1, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@771894ff], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [true] with mode [BEFORE_EACH_TEST_METHOD].
+11:37:53.120 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.1.RELEASE)
+
+2023-06-23 11:37:54.005  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : Starting PrestamoTests on CF-MP26K31W with PID 9436 (started by AnaSofiaAmarilesBlan in C:\Users\AnaSofiaAmarilesBlan\Downloads\2077f395-2c80-491d-908c-b1ee13e30aeb\biblioteca)
+2023-06-23 11:37:54.014  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : No active profile set, falling back to default profiles: default
+2023-06-23 11:37:55.396  INFO 9436 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-23 11:37:55.529  INFO 9436 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116ms. Found 1 repository interfaces.
+2023-06-23 11:37:56.435  INFO 9436 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-23 11:37:56.986  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-23 11:37:57.715  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-23 11:37:58.009  INFO 9436 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-23 11:37:58.422  INFO 9436 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2023-06-23 11:37:59.058  INFO 9436 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-06-23 11:37:59.329  INFO 9436 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-06-23 11:38:00.587  INFO 9436 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-23 11:38:00.597  INFO 9436 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-23 11:38:02.617  WARN 9436 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-23 11:38:03.771  INFO 9436 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-23 11:38:05.358  INFO 9436 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:~/bibliotecaTest'
+2023-06-23 11:38:05.565  INFO 9436 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-06-23 11:38:05.565  INFO 9436 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-06-23 11:38:05.599  INFO 9436 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 34 ms
+2023-06-23 11:38:05.637  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : Started PrestamoTests in 12.492 seconds (JVM running for 15.631)
+2023-06-23 11:38:05.680  INFO 9436 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-23 11:38:05.681  INFO 9436 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-23 11:38:05.708  INFO 9436 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-06-23 11:38:05.720  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-23 11:38:05.725  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.1.RELEASE)
+
+2023-06-23 11:38:05.794  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : Starting PrestamoTests on CF-MP26K31W with PID 9436 (started by AnaSofiaAmarilesBlan in C:\Users\AnaSofiaAmarilesBlan\Downloads\2077f395-2c80-491d-908c-b1ee13e30aeb\biblioteca)
+2023-06-23 11:38:05.795  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : No active profile set, falling back to default profiles: default
+2023-06-23 11:38:06.432  INFO 9436 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-23 11:38:06.472  INFO 9436 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30ms. Found 1 repository interfaces.
+2023-06-23 11:38:06.638  INFO 9436 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-23 11:38:06.863  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-06-23 11:38:06.866  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-06-23 11:38:06.901  INFO 9436 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-23 11:38:06.919  INFO 9436 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-06-23 11:38:07.000  INFO 9436 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-23 11:38:07.001  INFO 9436 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-23 11:38:07.421  WARN 9436 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-23 11:38:07.843  INFO 9436 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-23 11:38:08.288  INFO 9436 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:~/bibliotecaTest'
+2023-06-23 11:38:08.505  INFO 9436 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-06-23 11:38:08.505  INFO 9436 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-06-23 11:38:08.522  INFO 9436 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 17 ms
+2023-06-23 11:38:08.595  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : Started PrestamoTests in 2.816 seconds (JVM running for 18.589)
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /prestamo
+       Parameters = {}
+          Headers = [Content-Type:&quot;application/json;charset=UTF-8&quot;]
+             Body = {&quot;isbn&quot;:&quot;EQWQW8545&quot;,&quot;identificacionUsuario&quot;:&quot;74851254&quot;,&quot;tipoUsuario&quot;:3}
+    Session Attrs = {}
+
+Handler:
+             Type = com.ceiba.biblioteca.controlador.PrestamoControlador
+           Method = com.ceiba.biblioteca.controlador.PrestamoControlador#crearPrestamo(Prestamo)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;id&quot;:1,&quot;fechaMaximaDevolucion&quot;:&quot;04/07/2023&quot;}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /prestamo/1
+       Parameters = {}
+          Headers = [Accept:&quot;application/json&quot;]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.ceiba.biblioteca.controlador.PrestamoControlador
+           Method = com.ceiba.biblioteca.controlador.PrestamoControlador#buscarPorId(Integer)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;id&quot;:1,&quot;isbn&quot;:&quot;EQWQW8545&quot;,&quot;identificacionUsuario&quot;:&quot;74851254&quot;,&quot;tipoUsuario&quot;:3,&quot;fechaMaximaDevolucion&quot;:&quot;04/07/2023&quot;}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-06-23 11:38:10.154  INFO 9436 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-23 11:38:10.154  INFO 9436 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-23 11:38:10.156  INFO 9436 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-06-23 11:38:10.163  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-06-23 11:38:10.187  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.1.RELEASE)
+
+2023-06-23 11:38:10.329  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : Starting PrestamoTests on CF-MP26K31W with PID 9436 (started by AnaSofiaAmarilesBlan in C:\Users\AnaSofiaAmarilesBlan\Downloads\2077f395-2c80-491d-908c-b1ee13e30aeb\biblioteca)
+2023-06-23 11:38:10.334  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : No active profile set, falling back to default profiles: default
+2023-06-23 11:38:10.907  INFO 9436 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-23 11:38:10.927  INFO 9436 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 1 repository interfaces.
+2023-06-23 11:38:11.027  INFO 9436 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-23 11:38:11.123  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-06-23 11:38:11.128  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-06-23 11:38:11.228  INFO 9436 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-23 11:38:11.242  INFO 9436 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-06-23 11:38:11.306  INFO 9436 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-23 11:38:11.306  INFO 9436 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-23 11:38:11.639  WARN 9436 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-23 11:38:12.066  INFO 9436 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-23 11:38:12.483  INFO 9436 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:~/bibliotecaTest'
+2023-06-23 11:38:12.579  INFO 9436 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-06-23 11:38:12.579  INFO 9436 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-06-23 11:38:12.594  INFO 9436 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 15 ms
+2023-06-23 11:38:12.605  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : Started PrestamoTests in 2.413 seconds (JVM running for 22.598)
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /prestamo
+       Parameters = {}
+          Headers = [Content-Type:&quot;application/json;charset=UTF-8&quot;]
+             Body = {&quot;isbn&quot;:&quot;AWQ489&quot;,&quot;identificacionUsuario&quot;:&quot;7481545&quot;,&quot;tipoUsuario&quot;:2}
+    Session Attrs = {}
+
+Handler:
+             Type = com.ceiba.biblioteca.controlador.PrestamoControlador
+           Method = com.ceiba.biblioteca.controlador.PrestamoControlador#crearPrestamo(Prestamo)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;id&quot;:1,&quot;fechaMaximaDevolucion&quot;:&quot;05/07/2023&quot;}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /prestamo/1
+       Parameters = {}
+          Headers = [Accept:&quot;application/json&quot;]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.ceiba.biblioteca.controlador.PrestamoControlador
+           Method = com.ceiba.biblioteca.controlador.PrestamoControlador#buscarPorId(Integer)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;id&quot;:1,&quot;isbn&quot;:&quot;AWQ489&quot;,&quot;identificacionUsuario&quot;:&quot;7481545&quot;,&quot;tipoUsuario&quot;:2,&quot;fechaMaximaDevolucion&quot;:&quot;05/07/2023&quot;}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-06-23 11:38:12.884  INFO 9436 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-23 11:38:12.886  INFO 9436 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-23 11:38:12.886  INFO 9436 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-06-23 11:38:12.888  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-06-23 11:38:12.914  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.1.RELEASE)
+
+2023-06-23 11:38:13.248  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : Starting PrestamoTests on CF-MP26K31W with PID 9436 (started by AnaSofiaAmarilesBlan in C:\Users\AnaSofiaAmarilesBlan\Downloads\2077f395-2c80-491d-908c-b1ee13e30aeb\biblioteca)
+2023-06-23 11:38:13.288  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : No active profile set, falling back to default profiles: default
+2023-06-23 11:38:13.928  INFO 9436 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-23 11:38:13.958  INFO 9436 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27ms. Found 1 repository interfaces.
+2023-06-23 11:38:14.113  INFO 9436 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-23 11:38:14.276  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-06-23 11:38:14.280  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-06-23 11:38:14.312  INFO 9436 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-23 11:38:14.331  INFO 9436 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-06-23 11:38:14.411  INFO 9436 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-23 11:38:14.412  INFO 9436 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-23 11:38:15.018  WARN 9436 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-23 11:38:15.189  INFO 9436 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-23 11:38:15.523  INFO 9436 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:~/bibliotecaTest'
+2023-06-23 11:38:15.642  INFO 9436 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-06-23 11:38:15.645  INFO 9436 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-06-23 11:38:15.666  INFO 9436 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 16 ms
+2023-06-23 11:38:15.679  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : Started PrestamoTests in 2.733 seconds (JVM running for 25.673)
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /prestamo
+       Parameters = {}
+          Headers = [Content-Type:&quot;application/json;charset=UTF-8&quot;]
+             Body = {&quot;isbn&quot;:&quot;EQWQW8545&quot;,&quot;identificacionUsuario&quot;:&quot;1111111111&quot;,&quot;tipoUsuario&quot;:3}
+    Session Attrs = {}
+
+Handler:
+             Type = com.ceiba.biblioteca.controlador.PrestamoControlador
+           Method = com.ceiba.biblioteca.controlador.PrestamoControlador#crearPrestamo(Prestamo)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;id&quot;:1,&quot;fechaMaximaDevolucion&quot;:&quot;04/07/2023&quot;}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /prestamo
+       Parameters = {}
+          Headers = [Content-Type:&quot;application/json;charset=UTF-8&quot;]
+             Body = {&quot;isbn&quot;:&quot;EQWQW8545&quot;,&quot;identificacionUsuario&quot;:&quot;1111111111&quot;,&quot;tipoUsuario&quot;:3}
+    Session Attrs = {}
+
+Handler:
+             Type = com.ceiba.biblioteca.controlador.PrestamoControlador
+           Method = com.ceiba.biblioteca.controlador.PrestamoControlador#crearPrestamo(Prestamo)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 400
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;mensaje&quot;:&quot;El usuario con identificaciÃ³n 1111111111 ya tiene un libro prestado por lo cual no se le puede realizar otro prÃ©stamo&quot;}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-06-23 11:38:16.040  INFO 9436 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-23 11:38:16.041  INFO 9436 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-23 11:38:16.042  INFO 9436 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-06-23 11:38:16.129  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-06-23 11:38:16.186  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.1.RELEASE)
+
+2023-06-23 11:38:16.356  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : Starting PrestamoTests on CF-MP26K31W with PID 9436 (started by AnaSofiaAmarilesBlan in C:\Users\AnaSofiaAmarilesBlan\Downloads\2077f395-2c80-491d-908c-b1ee13e30aeb\biblioteca)
+2023-06-23 11:38:16.357  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : No active profile set, falling back to default profiles: default
+2023-06-23 11:38:16.792  INFO 9436 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-23 11:38:16.824  INFO 9436 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 1 repository interfaces.
+2023-06-23 11:38:16.982  INFO 9436 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-23 11:38:17.165  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-06-23 11:38:17.169  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-06-23 11:38:17.202  INFO 9436 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-23 11:38:17.260  INFO 9436 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-06-23 11:38:17.399  INFO 9436 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-23 11:38:17.399  INFO 9436 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-23 11:38:18.009  WARN 9436 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-23 11:38:18.181  INFO 9436 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-23 11:38:18.700  INFO 9436 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:~/bibliotecaTest'
+2023-06-23 11:38:18.870  INFO 9436 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-06-23 11:38:18.874  INFO 9436 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-06-23 11:38:18.922  INFO 9436 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 47 ms
+2023-06-23 11:38:18.944  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : Started PrestamoTests in 2.753 seconds (JVM running for 28.937)
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /prestamo
+       Parameters = {}
+          Headers = [Content-Type:&quot;application/json;charset=UTF-8&quot;]
+             Body = {&quot;isbn&quot;:&quot;EQWQW8545&quot;,&quot;identificacionUsuario&quot;:&quot;1111111111&quot;,&quot;tipoUsuario&quot;:5}
+    Session Attrs = {}
+
+Handler:
+             Type = com.ceiba.biblioteca.controlador.PrestamoControlador
+           Method = com.ceiba.biblioteca.controlador.PrestamoControlador#crearPrestamo(Prestamo)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 400
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;mensaje&quot;:&quot;Tipo de usuario no permitido en la biblioteca&quot;}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-06-23 11:38:19.041  INFO 9436 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-23 11:38:19.042  INFO 9436 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-23 11:38:19.043  INFO 9436 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-06-23 11:38:19.044  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-06-23 11:38:19.099  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.1.RELEASE)
+
+2023-06-23 11:38:19.269  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : Starting PrestamoTests on CF-MP26K31W with PID 9436 (started by AnaSofiaAmarilesBlan in C:\Users\AnaSofiaAmarilesBlan\Downloads\2077f395-2c80-491d-908c-b1ee13e30aeb\biblioteca)
+2023-06-23 11:38:19.269  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : No active profile set, falling back to default profiles: default
+2023-06-23 11:38:20.287  INFO 9436 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-23 11:38:20.472  INFO 9436 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 181ms. Found 1 repository interfaces.
+2023-06-23 11:38:21.313  INFO 9436 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-23 11:38:21.525  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-06-23 11:38:21.534  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-06-23 11:38:21.633  INFO 9436 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-23 11:38:21.667  INFO 9436 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-06-23 11:38:21.843  INFO 9436 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-23 11:38:21.845  INFO 9436 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-23 11:38:22.537  WARN 9436 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-23 11:38:22.913  INFO 9436 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-23 11:38:23.379  INFO 9436 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:~/bibliotecaTest'
+2023-06-23 11:38:23.526  INFO 9436 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-06-23 11:38:23.526  INFO 9436 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-06-23 11:38:23.546  INFO 9436 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 19 ms
+2023-06-23 11:38:23.558  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : Started PrestamoTests in 4.454 seconds (JVM running for 33.551)
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /prestamo
+       Parameters = {}
+          Headers = [Content-Type:&quot;application/json;charset=UTF-8&quot;]
+             Body = {&quot;isbn&quot;:&quot;EQWQW8545&quot;,&quot;identificacionUsuario&quot;:&quot;1111111111&quot;,&quot;tipoUsuario&quot;:1}
+    Session Attrs = {}
+
+Handler:
+             Type = com.ceiba.biblioteca.controlador.PrestamoControlador
+           Method = com.ceiba.biblioteca.controlador.PrestamoControlador#crearPrestamo(Prestamo)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;id&quot;:1,&quot;fechaMaximaDevolucion&quot;:&quot;07/07/2023&quot;}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /prestamo
+       Parameters = {}
+          Headers = [Content-Type:&quot;application/json;charset=UTF-8&quot;]
+             Body = {&quot;isbn&quot;:&quot;EQWQW8545&quot;,&quot;identificacionUsuario&quot;:&quot;1111111111&quot;,&quot;tipoUsuario&quot;:1}
+    Session Attrs = {}
+
+Handler:
+             Type = com.ceiba.biblioteca.controlador.PrestamoControlador
+           Method = com.ceiba.biblioteca.controlador.PrestamoControlador#crearPrestamo(Prestamo)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;id&quot;:2,&quot;fechaMaximaDevolucion&quot;:&quot;07/07/2023&quot;}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2023-06-23 11:38:23.617  INFO 9436 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-23 11:38:23.618  INFO 9436 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-23 11:38:23.618  INFO 9436 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-06-23 11:38:23.662  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2023-06-23 11:38:23.858  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.1.RELEASE)
+
+2023-06-23 11:38:23.978  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : Starting PrestamoTests on CF-MP26K31W with PID 9436 (started by AnaSofiaAmarilesBlan in C:\Users\AnaSofiaAmarilesBlan\Downloads\2077f395-2c80-491d-908c-b1ee13e30aeb\biblioteca)
+2023-06-23 11:38:23.979  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : No active profile set, falling back to default profiles: default
+2023-06-23 11:38:24.733  INFO 9436 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-23 11:38:24.752  INFO 9436 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 1 repository interfaces.
+2023-06-23 11:38:24.885  INFO 9436 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-23 11:38:25.013  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2023-06-23 11:38:25.018  INFO 9436 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2023-06-23 11:38:25.058  INFO 9436 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-23 11:38:25.078  INFO 9436 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-06-23 11:38:25.176  INFO 9436 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-23 11:38:25.177  INFO 9436 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-23 11:38:25.651  WARN 9436 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-23 11:38:25.779  INFO 9436 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-23 11:38:26.037  INFO 9436 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:~/bibliotecaTest'
+2023-06-23 11:38:26.111  INFO 9436 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-06-23 11:38:26.111  INFO 9436 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-06-23 11:38:26.123  INFO 9436 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 12 ms
+2023-06-23 11:38:26.135  INFO 9436 --- [    Test worker] c.c.b.calificador.PrestamoTests          : Started PrestamoTests in 2.263 seconds (JVM running for 36.129)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /prestamo/1
+       Parameters = {}
+          Headers = [Accept:&quot;application/json&quot;]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.ceiba.biblioteca.controlador.PrestamoControlador
+           Method = com.ceiba.biblioteca.controlador.PrestamoControlador#buscarPorId(Integer)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;application/json&quot;]
+     Content type = application/json
+             Body = {&quot;id&quot;:1,&quot;isbn&quot;:&quot;ASDA7884&quot;,&quot;identificacionUsuario&quot;:&quot;974148&quot;,&quot;tipoUsuario&quot;:1,&quot;fechaMaximaDevolucion&quot;:&quot;07/07/2023&quot;}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at 23/06/2023, 11:38:27 a. m.</p>
+</div>
+</div>
+</body>
+</html>
